@@ -1,0 +1,66 @@
+.linkWithoutUnderline {
+  text-decoration: none; 
+}
+
+.adminPage {
+    background-color: lightcyan;
+    padding: 50px;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .button {
+    width: 100%;
+    padding: 15px 0;
+    font-size: 18px;
+    border-radius: 8px;
+    transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  
+  .icon {
+    margin-right: 10px;
+    font-size: 20px;
+  }
+  
+  .button:hover {
+    opacity: 0.9;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  
+  .btn-info {
+    background-color: #17a2b8;
+    color: #fff;
+    border: none;
+  }
+  
+  .btn-info:hover {
+    background-color: #117a8b;
+  }
+  
+  .btn-success {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+  }
+  
+  .btn-success:hover {
+    background-color: #218838;
+  }
+  

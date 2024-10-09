@@ -1,0 +1,50 @@
+
+.piechartcontainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30%;
+  margin: auto; /* Add margin:auto to center horizontally */
+  margin-top: 5%; /* Adjust margin-top as needed */
+}
+
+
+
+.piechartcontainer .chartcontainer {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.piechartcontainer .tablecontainer {
+  width: 80%;
+  padding: 10px;
+}
+h2{
+  text-align: center;
+}
+
+
+.tablecontainer table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.tablecontainer th, .tablecontainer td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+
+}
+
+.tablecontainer th {
+  background-color: #f2f2f2;
+}
+
+
+
+
+
+
+
+

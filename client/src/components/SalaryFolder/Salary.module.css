@@ -1,0 +1,93 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.returnButton {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.returnButton:hover {
+  background-color: #0056b3;
+}
+
+.container {
+  width: 100%;
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.container table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.container th, .container td {
+  border: 1px solid #e0e0e0;
+  padding: 12px 15px;
+  text-align: left;
+  font-size: 16px;
+}
+
+.container th {
+  background-color: green;
+  color: #ffffff;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.container tbody tr {
+  transition: background-color 0.3s ease;
+}
+
+.container tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+.container button {
+  margin-right: 10px;
+  padding: 8px 12px;
+  font-size: 14px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.container button:hover {
+  background-color: #0056b3;
+  transform: translateY(-2px);
+}
+
+.container button i {
+  margin-right: 5px;
+}
+
+.fa-envelope {
+  color: #007bff;
+}
+
+.fa-envelope:hover {
+  color: #0056b3;
+}
+
+.fa-trash {
+  color: #dc3545;
+}
+
+.fa-trash:hover {
+  color: #c82333;
+}

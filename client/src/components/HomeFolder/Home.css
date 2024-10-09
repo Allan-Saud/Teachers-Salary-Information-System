@@ -1,0 +1,48 @@
+
+  /* Overlay to improve text readability */
+  /* Home.css */
+  
+  /* Styles for the Home component */
+  .home-background {
+    position: relative;
+    background-image: url('./picture/school.jpg'); /* Path to your image */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .home-content {
+    text-align: center;
+    color:whitesmoke; /* Text color for headings */
+  }
+  
+  /* Overlay to improve text readability */
+  .home-background::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.1); /* Adjust the overlay color (white with opacity) */
+  }
+  
+  .home-content h1 {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 4); /* Text shadow for better visibility */
+    margin: 0; /* Remove default margins to optimize space */
+    font-size: 3rem; /* Adjust font size as needed */
+  }
+
+  .home-header {
+    text-align: center; /* Center-align all content within the div */
+    background-color: #f0f0f0; 
+  }
+  .home-header h1 {
+    margin: 20px 0; /* Adding some margin for better spacing */
+  }
+
+  
+  
